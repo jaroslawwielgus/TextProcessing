@@ -1,0 +1,18 @@
+.container {
+	margin: 0 auto;
+	border: 2px solid black;
+	padding: 10px;
+	width: 300px;
+}
+
+/* 1 sposob */
+form > * {
+	width: 100%;
+	font-size: 20px;
+}
+
+/* 2 sposob */
+/* .container * {
+	width: 100%;
+	font-size: 20px;
+} */

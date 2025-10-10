@@ -1,4 +1,11 @@
-{% extends "base.html" %} {% block title %} TextProcessing - formularz {% endblock %}
+{% extends "base.html" %}
+{% block title %} TextProcessing - formularz {% endblock %}
 {% block content %}
-<p>To jest strona główna</p>
+<form method="post" enctype="multipart/form-data" action="/wynik/">
+    {% csrf_token %}
+    {{ form.file }}
+    <br>
+    <br>
+    <button type="submit" class="btn-submit">Zatwierdź</button>
+</form>
 {% endblock %}
