@@ -8,3 +8,10 @@ My application allows the user to upload a text file (.txt, .html, .css nad .xml
 
 ## Technologies
 Creating the app required from me knowledge of django, python, html, css. I saved and read the data in / from sqlite database. I handled exceptions. The app is resposive.
+
+## Running
+Firstly, run the command:
+`python manage.py migrate`
+Secondly, run:
+`python manage.py runserver`
+
