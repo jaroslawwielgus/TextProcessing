@@ -2,7 +2,8 @@
 	margin: 0 auto;
 	border: 2px solid black;
 	padding: 10px;
-	width: 300px;
+	min-width: 300px;
+	width: fit-content;
 }
 
 /* 1 sposob */
@@ -16,3 +17,16 @@ form > * {
 	width: 100%;
 	font-size: 20px;
 } */
+
+.p-score {
+	white-space: pre-wrap;
+}
+
+.div-error {
+	color: red;
+}
+
+.div-error ul {
+	list-style-type: none;
+	padding: 0;
+}
