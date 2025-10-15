@@ -31,7 +31,7 @@ def form(request):
                     return word
 
             new_text = re.sub(pattern, shuffler, text)
-            processed_file = ProcessedFile(name="", processed_content=new_text)
+            processed_file = ProcessedFile(name="nazwa", processed_content=new_text)
             processed_file.save()
             return HttpResponseRedirect("/wynik/")
         
