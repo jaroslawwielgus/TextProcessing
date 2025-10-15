@@ -1,10 +1,11 @@
 {% extends "base.html" %}
 {% block title %} TextProcessing - formularz {% endblock %}
 {% block content %}
-<form method="post" enctype="multipart/form-data" action="/wynik/">
+<form method="post" enctype="multipart/form-data">
     {% csrf_token %}
     {{ form.file }}
     <br>
+    <div class="div-error">{{form.file.errors}}</div>
     <br>
     <button type="submit" class="btn-submit">Zatwierdź</button>
 </form>

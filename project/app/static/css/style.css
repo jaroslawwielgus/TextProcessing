@@ -21,3 +21,12 @@ form > * {
 .p-score {
 	white-space: pre-wrap;
 }
+
+.div-error {
+	color: red;
+}
+
+.div-error ul {
+	list-style-type: none;
+	padding: 0;
+}
