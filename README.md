@@ -11,7 +11,10 @@ Creating the app required from me knowledge of django, python, html, css. I save
 
 ## Running
 Firstly, run the command:
+
 `python manage.py migrate`
+
 Secondly, run:
+
 `python manage.py runserver`
 
