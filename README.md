@@ -10,11 +10,15 @@ My application allows the user to upload a text file (.txt, .html, .css nad .xml
 Creating the app required from me knowledge of django, python, html, css. I saved and read the data in / from sqlite database. I handled exceptions. The app is resposive.
 
 ## Running
-Firstly, run the command:
+Go to the project directory:
+
+`cd project`
+
+Next, run the command:
 
 `python manage.py migrate`
 
-Secondly, run:
+Finally, run:
 
 `python manage.py runserver`
 
